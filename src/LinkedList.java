@@ -19,7 +19,7 @@ public class LinkedList {
     public void addFirst(int item) {
         var node = new Node(item);
 
-        if(first == null)
+        if (first == null)
             first = last = node;
         else {
             node.next = first;
@@ -31,7 +31,7 @@ public class LinkedList {
     public void addLast(int item) {
         var node = new Node(item);
 
-        if(first == null)
+        if (first == null)
             first = last = node;
         else {
             last.next = node;
@@ -41,37 +41,30 @@ public class LinkedList {
     }
 
     public void deleteFirst() {
-        if(first == null) return;
+        if (first == null) return;
 
         var node = first.next;
         first.next = null;
         first = node;
+        size--;
     }
 
     public void deleteLast() {
         if (first == null) return;
+
         var previousNode = findPreviousNode();
         previousNode.next = null;
         last = previousNode;
+        size--;
     }
 
-    public boolean contains(int item) {
-        if (first == null) return false;
-
-        var node = first;
-        while(node != null) {
-            if (node.value == item) return true;
-            node = node.next;
-        }
-        return false;
-    }
 
     public int indexOf(int item) {
         if (first == null) return -1;
 
         var node = first;
         int index = 0;
-        while(node != null) {
+        while (node != null) {
             if (node.value == item) return index;
             node = node.next;
             index++;
@@ -79,15 +72,24 @@ public class LinkedList {
         return -1;
     }
 
+    public boolean contains(int item) {
+        return indexOf(item) != -1;
+    }
+
+    public int size() {
+        return size;
+    }
+
     private Node findPreviousNode() {
-        var node = first;
+        var current = first;
         Node previousNode = null;
-        while(node != null) {
-            if(node.next == last) {
-                previousNode = node;
+
+        while (current != null) {
+            if (current.next == last) {
+                previousNode = current;
                 return previousNode;
             }
-            node = node.next;
+            current = current.next;
         }
 
         throw new NoSuchElementException();
