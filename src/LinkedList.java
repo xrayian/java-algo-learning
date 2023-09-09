@@ -58,7 +58,6 @@ public class LinkedList {
         size--;
     }
 
-
     public int indexOf(int item) {
         if (first == null) return -1;
 
@@ -78,6 +77,19 @@ public class LinkedList {
 
     public int size() {
         return size;
+    }
+
+    public int[] toArray() {
+        var convertedArray = new int[size];
+
+        Node current = first;
+        int index = 0;
+        while (current != null) {
+
+            convertedArray[index++] = current.value;
+            current = current.next;
+        }
+        return convertedArray;
     }
 
     private Node findPreviousNode() {

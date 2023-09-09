@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4829d592-caef-4307-a921-d67eb726d721" name="Changes" comment="updated some implementation details">
+    <list default="true" id="4829d592-caef-4307-a921-d67eb726d721" name="Changes" comment="updated counter">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
@@ -56,7 +56,7 @@
       <option name="presentableId" value="Default" />
       <updated>1694256306341</updated>
       <workItem from="1694256307379" duration="5382000" />
-      <workItem from="1694275717052" duration="1390000" />
+      <workItem from="1694275717052" duration="1747000" />
     </task>
     <task id="LOCAL-00001" summary="implemented linked list from scratch singly version">
       <option name="closed" value="true" />
@@ -74,7 +74,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694276495783</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="updated counter">
+      <option name="closed" value="true" />
+      <created>1694277160348</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1694277160348</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -83,6 +91,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="implemented linked list from scratch singly version" />
     <MESSAGE value="updated some implementation details" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated some implementation details" />
+    <MESSAGE value="updated counter" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated counter" />
   </component>
 </project>
