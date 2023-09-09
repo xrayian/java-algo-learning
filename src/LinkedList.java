@@ -59,30 +59,30 @@ public class LinkedList {
         if (first == null) return false;
 
         var node = first;
-        while(node.next != null) {
+        while(node != null) {
             if (node.value == item) return true;
             node = node.next;
         }
-        return last.value == item;
+        return false;
     }
 
     public int indexOf(int item) {
         if (first == null) return -1;
 
         var node = first;
-        int i = 0;
-        while(node.next != null) {
-            if (node.value == item) return i;
+        int index = 0;
+        while(node != null) {
+            if (node.value == item) return index;
             node = node.next;
-            i++;
+            index++;
         }
-        return last.value == item ? (size-1) : -1;
+        return -1;
     }
 
     private Node findPreviousNode() {
         var node = first;
         Node previousNode = null;
-        while(node.next != null) {
+        while(node != null) {
             if(node.next == last) {
                 previousNode = node;
                 return previousNode;
@@ -93,8 +93,4 @@ public class LinkedList {
         throw new NoSuchElementException();
     }
 
-    //indexOf
-
-    
-    
 }
