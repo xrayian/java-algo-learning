@@ -92,6 +92,27 @@ public class LinkedList {
         return convertedArray;
     }
 
+    public void reverse() {
+        if (first == null) return;
+
+        Node previous = first;
+        Node current = first.next;
+
+        while (current != null) {
+            if (previous == first) {
+                last = previous;
+                last.next = null;
+            }
+            if (current.next == null)
+                first = current;
+
+            var next = current.next;
+            current.next = previous;
+            previous = current;
+            current = next;
+        }
+    }
+
     private Node findPreviousNode() {
         var current = first;
         Node previousNode = null;

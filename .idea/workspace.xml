@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4829d592-caef-4307-a921-d67eb726d721" name="Changes" comment="updated counter">
+    <list default="true" id="4829d592-caef-4307-a921-d67eb726d721" name="Changes" comment="added `toArray()` method to linkedList">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
@@ -23,6 +23,20 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "xrayian"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="22dc9fe8-65e1-4826-8bb8-5badeb496af1" />
+        <option name="url" value="https://github.com/xrayian/algo-learning.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
@@ -56,7 +70,7 @@
       <option name="presentableId" value="Default" />
       <updated>1694256306341</updated>
       <workItem from="1694256307379" duration="5382000" />
-      <workItem from="1694275717052" duration="1747000" />
+      <workItem from="1694275717052" duration="5951000" />
     </task>
     <task id="LOCAL-00001" summary="implemented linked list from scratch singly version">
       <option name="closed" value="true" />
@@ -82,7 +96,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694277160348</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added `toArray()` method to linkedList">
+      <option name="closed" value="true" />
+      <created>1694277595605</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1694277595605</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -92,6 +114,7 @@
     <MESSAGE value="implemented linked list from scratch singly version" />
     <MESSAGE value="updated some implementation details" />
     <MESSAGE value="updated counter" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated counter" />
+    <MESSAGE value="added `toArray()` method to linkedList" />
+    <option name="LAST_COMMIT_MESSAGE" value="added `toArray()` method to linkedList" />
   </component>
 </project>
