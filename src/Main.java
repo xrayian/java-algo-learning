@@ -1,14 +1,9 @@
-import java.util.Arrays;
-
 public class Main {
+
     public static void main(String[] args) {
-        LinkedList nums = new LinkedList();
+        String expression = "[{(5) + ]3[}<5>>";
+        StringOperations operations = new StringOperations();
 
-//        nums.addLast(15);
-//        nums.addLast(22);
-
-        System.out.println(Arrays.toString(nums.toArray()));
-        nums.reverse();
-        System.out.println(Arrays.toString(nums.toArray()));
+        System.out.println(operations.isExpressionBalanced(expression));
     }
 }
