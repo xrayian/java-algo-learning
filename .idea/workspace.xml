@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4829d592-caef-4307-a921-d67eb726d721" name="Changes" comment="added `toArray()` method to linkedList">
+    <list default="true" id="4829d592-caef-4307-a921-d67eb726d721" name="Changes" comment="reversing linked list implemented">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
@@ -24,12 +24,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "xrayian"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;xrayian&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -70,7 +70,8 @@
       <option name="presentableId" value="Default" />
       <updated>1694256306341</updated>
       <workItem from="1694256307379" duration="5382000" />
-      <workItem from="1694275717052" duration="5951000" />
+      <workItem from="1694275717052" duration="6592000" />
+      <workItem from="1694355544725" duration="3385000" />
     </task>
     <task id="LOCAL-00001" summary="implemented linked list from scratch singly version">
       <option name="closed" value="true" />
@@ -104,7 +105,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694277595605</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="reversing linked list implemented">
+      <option name="closed" value="true" />
+      <created>1694281768973</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1694281768973</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,6 +124,7 @@
     <MESSAGE value="updated some implementation details" />
     <MESSAGE value="updated counter" />
     <MESSAGE value="added `toArray()` method to linkedList" />
-    <option name="LAST_COMMIT_MESSAGE" value="added `toArray()` method to linkedList" />
+    <MESSAGE value="reversing linked list implemented" />
+    <option name="LAST_COMMIT_MESSAGE" value="reversing linked list implemented" />
   </component>
 </project>

@@ -113,6 +113,27 @@ public class LinkedList {
         }
     }
 
+    public int getKthElementFromTheEnd(int k) {
+        if( k > size || k <= 0)
+            throw new IllegalArgumentException();
+
+        if(first == null)
+            throw new IllegalStateException();
+
+        var forwardPtr = first;
+        var targetPtr = first;
+
+        for (int i = 0; i < k; i++)
+            forwardPtr = forwardPtr.next;
+
+        while (forwardPtr != null) {
+            targetPtr = targetPtr.next;
+            forwardPtr = forwardPtr.next;
+        }
+
+        return targetPtr.value;
+    }
+
     private Node findPreviousNode() {
         var current = first;
         Node previousNode = null;
